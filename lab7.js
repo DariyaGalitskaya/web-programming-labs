@@ -80,4 +80,11 @@ function makePoem() {
         poema [i].style.backgroundColor = color;
     }
 }
+function makeTable() {
+    let tab = document.getElementById('table');
+    let tabCount = 9;
+    for(let i = 1; i<=tabCount; i++) {
+        tab.innerHTML += `<div class="table-item">14 * ${i} = ${14*i}</div>`;
+    }
+}
 
